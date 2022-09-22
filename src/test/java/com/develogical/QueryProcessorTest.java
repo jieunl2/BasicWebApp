@@ -32,7 +32,7 @@ public class QueryProcessorTest {
 
     @Test
     public void knowsTeamName() throws Exception {
-        assertThat(queryProcessor.process("what is your name"), containsString("team-jj"))
+        assertThat(queryProcessor.process("what is your name"), containsString("team-jj"));
     }
 
 }
