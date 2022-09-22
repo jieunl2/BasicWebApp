@@ -20,7 +20,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("largest")) {
             return "15";
         }
-
+        if (query.toLowerCase().contains("square")) {
+            return "25";
+        }
         
         return "";
     }

@@ -33,6 +33,10 @@ public class QueryProcessorTest {
     public void plus() throws Exception {
         assertThat(queryProcessor.process("largest"), containsString("15"));
     }
+    @Test
+    public void plus() throws Exception {
+        assertThat(queryProcessor.process("square"), containsString("25"));
+    }
 
 
 }
