@@ -14,6 +14,7 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("17313")) {
             return "Foundations of Software Engineering is offered at CMU";
         }
+        if (query.toLowerCase().contains("break")) 
         return "";
     }
 }
