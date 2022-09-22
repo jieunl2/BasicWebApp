@@ -14,12 +14,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is your name")) {
             return "team-jj";
         }
-        if (query.toLowerCase().contains("what is 4 plus 13")) {
-            return "17";
+        if (query.toLowerCase().contains("plus")) {
+            return "1";
         }
-        if (query.toLowerCase().contains("what is 2 plus 1")) {
-            return "3";
-        }
+
         
         return "";
     }
