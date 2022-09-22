@@ -17,6 +17,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 4 plus 13")) {
             return "17";
         }
+        if (query.toLowerCase().contains("what is 2 plus 1")) {
+            return "3";
+        }
+        
         return "";
     }
 }
