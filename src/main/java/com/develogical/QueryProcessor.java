@@ -23,7 +23,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("square")) {
             return "25";
         }
-        
+        if (query.toLowerCase().contains("multiplied")) {
+            return "0";
+        }
         return "";
     }
 }

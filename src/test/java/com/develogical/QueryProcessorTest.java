@@ -37,6 +37,9 @@ public class QueryProcessorTest {
     public void plus() throws Exception {
         assertThat(queryProcessor.process("square"), containsString("25"));
     }
-
+    @Test
+    public void plus() throws Exception {
+        assertThat(queryProcessor.process("multiplied"), containsString("0"));
+    }
 
 }
